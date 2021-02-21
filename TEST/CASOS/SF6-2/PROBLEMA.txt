@@ -1,0 +1,7 @@
+Al ejecutar el codigo lhsp, no detecta el otro proyecto. Hay dos proyectos, uno donde los archivos se llaman SF6_N-etc._
+y otro cuyos archivos se llaman SF6camb3lyp_N-etc.
+
+El proyecto que no detecta es el llamado SF6, en cambio SF6camb3lyp sí lo detecta.
+
+
+

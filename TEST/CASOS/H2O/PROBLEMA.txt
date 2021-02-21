@@ -1,0 +1,3 @@
+El codigo python detecta los 4 proyectos presentes en este subdirectorio.
+
+Pero se produce un error al ejecutar el proyecto 0 llamado en el menu interactivo H2Onodiffcc

@@ -1,0 +1,17 @@
+Aqui el codigo detecta los 5 proyectos.
+
+Pero al elegir la opción 1 de menu y que corresponde al proyecto llamad oSF6coupledclus, se produce un error en el paso 8:
+
+-------------- Step8/13 ----------------
+Traceback (most recent call last):
+  File "/home/jorge/LHSP/lhsp.py", line 115, in <module>
+    op.paso8( 'Step','8',maxStep, project.filesLog)
+  File "/home/jorge/LHSP/source/operaciones.py", line 591, in paso8
+    self.Energy['E(N-1)'] = self.getEnergy(f)
+  File "/home/jorge/LHSP/source/operaciones.py", line 337, in getEnergy
+    energy = float(t[3])
+ValueError: could not convert string to float: E(Corr)=
+
+
+
+
