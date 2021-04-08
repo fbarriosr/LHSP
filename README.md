@@ -1,8 +1,20 @@
 ## LHSP
 
-Genera archivos .cub visualizables con el programa GaussView o cualquier otro capaz de leer archivos .cub provenientes de Gaussian. Corresponden a los campos escalares del potencial de la hiperblandura local así como de sus dos componentes. No son los mismos archivos que genera el código LHS, de hecho LHSP está en investigación pues se basa en el cálculo del potencial electrostático molecular. Por cada sistema molecular, requiere como alimentación de al menos cinco archivos .log correspondientes al sistema con N, N+1, N+2, N-1, N-2. Si el grado de degeneración en orbitales de frontera LUMO y HOMO es superior a 2, también requiere como alimentación de los archivos .fchk correspondientes al sistema con N+p y N-q electrones, siendo p>2 y q>2.
-Utilizable solo en servidores con sistema operativo Linux y siempre tenga instalados y operativos
-los programas Gaussian y sus complementarios cubegen y cubman.
+Genera archivos .cub visualizables con el programa GaussView o
+cualquier otro capaz de leer archivos .cub provenientes de Gaussian.
+Corresponden a los campos escalares del potencial de la hiperblandura
+local así como de sus dos componentes. No son los mismos archivos que
+genera el código LHS, de hecho LHSP está en investigación pues se basa
+en el cálculo del potencial electrostático molecular. Por cada sistema
+molecular, se requiere como alimentación de 5 archivos .log del
+sistema con N, N+1, N+2, N-1, N-2 electrones y los archivos .fchk con
+N, N+p y N-q electrones, donde p y q son el grado de degeneración en
+orbitales de frontera LUMO y HOMO, respectivamente. Al igual que con
+los códigos Dualdescriptor y DDP, todos esos sistemas deben poseer la
+misma geometría molecular que la del sistema con N electrones.
+Utilizable solo en servidores con sistema operativo Linux y siempre
+tenga instalados y operativos los programas Gaussian y sus
+complementarios cubegen y cubman.
 
 ## Requerimientos
 
